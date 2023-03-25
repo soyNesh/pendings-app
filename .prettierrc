@@ -1,0 +1,22 @@
+{
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "importOrder": [
+    "^react",
+    "^(?!react)\\w+$",
+    "atoms/(.*)$",
+    "molecules/(.*)$",
+    "organisms/(.*)$",
+    "templates/(.*)$",
+    "pages/(.*)$",
+    "render/(.*)$",
+    "hooks/(.*)$",
+    "utils/(.*)$",
+    "styles/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSortSpecifiers": true
+}
