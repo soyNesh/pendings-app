@@ -26,12 +26,16 @@ const Card = ({ data }) => {
   }
 
   return (
-    <Draggable nodeRef={nodeRef}>
+    <Draggable nodeRef={nodeRef} handle="#dragButton">
       <StyledCard
         ref={nodeRef}
         sx={isTodayOrTomorrow() ? { background: '#FFD6D6' } : null}
       >
-        <CardContent title={title} description={description} />
+        <CardContent
+          title={title}
+          description={description}
+          dueDate={dueDate}
+        />
         <CardActions>
           <Button
             type="icon"

@@ -1,4 +1,5 @@
 import { CardContent, styled } from '@mui/material'
+import Button from '../../atoms/Button'
 import Text from '../../atoms/Text'
 
 const StyledCardContent = styled(CardContent)`
@@ -10,6 +11,10 @@ const StyledCardContent = styled(CardContent)`
   align-items: flex-start;
 `
 
+const DragButton = styled(Button)`
+  align-self: flex-end;
+`
+
 const CardTitle = styled(Text)`
   font-weight: bold;
 `
@@ -18,4 +23,12 @@ const CardDescription = styled(Text)`
   text-align: justify;
 `
 
-export { StyledCardContent, CardTitle, CardDescription }
+const CardDueDate = styled(Text)``
+
+export {
+  StyledCardContent,
+  DragButton,
+  CardTitle,
+  CardDescription,
+  CardDueDate,
+}
