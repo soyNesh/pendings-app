@@ -1,7 +1,14 @@
-import { Button as MuiButton } from '@mui/material'
+import { Fab, IconButton, Button as MuiButton } from '@mui/material'
 
-const StyledButton = ({ children, ...rest }) => {
-  return <MuiButton {...rest}>{children}</MuiButton>
+const Button = ({ type, children, ...rest }) => {
+  switch (type) {
+    case 'icon':
+      return <IconButton {...rest}>{children}</IconButton>
+    case 'floating':
+      return <Fab {...rest}>{children}</Fab>
+    default:
+      return <MuiButton {...rest}>{children}</MuiButton>
+  }
 }
 
-export default StyledButton
+export default Button
