@@ -1,9 +1,11 @@
+import { ThemeProvider, createTheme } from '@mui/material/styles'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createTheme, ThemeProvider } from '@mui/material/styles'
-import './index.css'
+import { Provider } from 'react-redux'
 import App from './App'
+import './index.css'
 import reportWebVitals from './reportWebVitals'
+import store from './store'
 
 const customTheme = createTheme({
   palette: {
@@ -11,15 +13,20 @@ const customTheme = createTheme({
       main: '#43ED3F',
       contrastText: 'black',
     },
+    error: {
+      main: '#ED4428',
+    },
   },
 })
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={customTheme}>
-      <App />
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider theme={customTheme}>
+        <App />
+      </ThemeProvider>
+    </Provider>
   </React.StrictMode>
 )
 
