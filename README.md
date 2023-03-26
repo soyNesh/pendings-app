@@ -21,6 +21,7 @@
 - Redux: I decided to use Redux because it provides a scalable and predictable way to manage state, making the app easier to debug, share state between components and improve performance because there are no unwanted re-renders.
 - Material UI: I decided to use Material UI because it allows to quickly build a consistent, responsive, and accessible user interface, while providing a high degree of customization and flexibility.
 - Styled-components: I decided to use styled-components because it helps a lot to easily customize the styling of Material UI components without having to write custom CSS classes while promoting modularity, scalability, and performance.
+- react-draggable: I decided to use react-draggable because it provides a simple and flexible solution for implementing draggable components. It is very easy to use and customize. It also has cross-browser compatibility and is a lightweight library.
 
 ## Available Scripts
 
