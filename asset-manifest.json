@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.0346f0e1.js",
-    "static/js/787.bd58e086.chunk.js": "/static/js/787.bd58e086.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.0346f0e1.js.map": "/static/js/main.0346f0e1.js.map",
-    "787.bd58e086.chunk.js.map": "/static/js/787.bd58e086.chunk.js.map"
+    "main.css": "/pendings-app/static/css/main.e6c13ad2.css",
+    "main.js": "/pendings-app/static/js/main.9abc9537.js",
+    "static/js/787.bd58e086.chunk.js": "/pendings-app/static/js/787.bd58e086.chunk.js",
+    "index.html": "/pendings-app/index.html",
+    "main.e6c13ad2.css.map": "/pendings-app/static/css/main.e6c13ad2.css.map",
+    "main.9abc9537.js.map": "/pendings-app/static/js/main.9abc9537.js.map",
+    "787.bd58e086.chunk.js.map": "/pendings-app/static/js/787.bd58e086.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0346f0e1.js"
+    "static/js/main.9abc9537.js"
   ]
 }
